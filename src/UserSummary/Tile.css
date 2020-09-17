@@ -1,0 +1,87 @@
+.tile-container {
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 200px;
+  margin: 0 25px 25px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  height: 80px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info {
+  height: 120px;
+}
+
+.conversion-chart {
+  margin-right: 20px;
+  justify-content: flex-start;
+}
+
+.chart-label {
+  text-align: end;
+  font-size: 14px;
+}
+
+.summary {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.summary-label {
+  font-size: 10px;
+  color: #8d8d8d;
+}
+
+.data {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.impressions {
+  color: orange;
+}
+
+.conversions {
+  color: blue;
+}
+
+.revenue {
+  color: green;
+}
+
+.avatar-container {
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  border-radius: 80px;
+  height: 70px;
+  font-size: 50px;
+  color: purple;
+}
+
+.backup-avatar {
+  border-radius: 80px;
+  height: 70px;
+  background-color: green;
+}

@@ -1,0 +1,27 @@
+.tile-grid {
+  padding: 30px;
+}
+
+.sort-options{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.users {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+button {
+  margin: 5px;
+}
+
+.sort-label {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 15px;
+}
